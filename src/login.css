@@ -1,0 +1,46 @@
+.forget{
+    font-size: 12px;
+    color: rgb(242, 4, 4);
+    text-decoration: none;
+}
+
+.forget:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: default;
+    font-size: large;
+}
+
+button{
+    color: aliceblue;
+    width: 5%;
+    border: none;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+button:hover{
+    color: rgb(3, 12, 12);
+    background-color: rgb(120, 227, 12);
+}
+
+.login-page{
+    border: 1px solid rgb(91, 88, 88);
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+    margin: 7px;
+}
